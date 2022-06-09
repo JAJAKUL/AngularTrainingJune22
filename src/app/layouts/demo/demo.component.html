@@ -1,1 +1,8 @@
 <p>demo works!</p>
+
+<li *ngFor="let data of array2 ; let i = index">
+    <ul>
+        {{i+1}} << >> {{data.prec_type}} << >> {{data.cloudcover}}
+    </ul>
+</li>
+
